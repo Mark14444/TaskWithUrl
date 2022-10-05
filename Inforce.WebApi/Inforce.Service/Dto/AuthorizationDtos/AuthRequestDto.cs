@@ -1,0 +1,9 @@
+﻿
+namespace Inforce.Service.Dto.AuthorizationDtos
+{
+    public class AuthRequestDto
+    {
+        public string Email { get; set; } = null!;
+        public string Password { get; set; } = null!;
+    }
+}
